@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,6 +76,7 @@
     <section class="prices">
         <div class="widht__keeper">
             <h2>Cennik</h2>
+            <div class="color__bar"></div>
             <div class="prices__container">
                 <div class="prices__plan">
                     <div class="bigger__circle">
@@ -86,9 +87,9 @@
                         <p>85<sup>99</sup></p>
                         <p>pln/msc</p>
                     </div>
-                    <p class="prices__plan--description">Zakup towaru &#43</p>
+                    <p class="prices__plan--description">Zakup towaru &#43 dowóz</p>
                     <p class="prices__plan--description">Serwis</p>
-                    <button class="prices__plan--button">Dołącz</button>
+                    <button class="prices__plan--button first__button">Dołącz</button>
                 </div>
                 <div class="prices__plan">
                     <div class="bigger__circle">
@@ -99,10 +100,10 @@
                         <p>95<sup>99</sup></p>
                         <p>pln/msc</p>
                     </div>
-                    <p class="prices__plan--description">Zakup towaru &#43</p>
+                    <p class="prices__plan--description">Zakup towaru &#43 dowóz</p>
                     <p class="prices__plan--description">Serwis</p>
                     <p class="prices__plan--description">Gwarancja 5 lat</p>
-                    <button class="prices__plan--button">Dołącz</button>
+                    <button class="prices__plan--button second__button">Dołącz</button>
                 </div>
                 <div class="prices__plan">
                     <div class="bigger__circle">
@@ -113,11 +114,33 @@
                         <p>211<sup>00</sup></p>
                         <p>pln/msc</p>
                     </div>
-                    <p class="prices__plan--description">Zakup towaru &#43</p>
+                    <p class="prices__plan--description">Zakup towaru &#43 dowóz</p>
                     <p class="prices__plan--description">Serwis</p>
                     <p class="prices__plan--description">Gwarancja 5 lat</p>
                     <p class="prices__plan--description">Porady projektanta</p>
-                    <button class="prices__plan--button">Dołącz</button>
+                    <button class="prices__plan--button third__button">Dołącz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="widht__keeper">
+            <h2>Kontakt</h2>
+            <div class="color__bar"></div>
+            <div class="contact__container">
+                <form class="contact__form">
+                    <input type="text" placeholder="Imię">
+                    <input type="email" placeholder="email">
+                    <textarea placeholder="Wiadomość"></textarea>
+                </form>
+                <div class="contact__right">
+                    <img src="images/red_chair.png" alt="Red Chair">
+                    <label class="contact__right--checkbox">
+                        <input type="checkbox" checked="checked">
+                        <span class="contact__right--checkmark"></span>
+                        Zgadzam się na przetwarzanie danych osobowych
+                    </label>
+                    <button type="submit">Wyślij</button>
                 </div>
             </div>
         </div>
