@@ -26,6 +26,7 @@
     width: 20px;
     top: 50%;
     transform: rotate(45deg);
+    cursor: pointer;
 }
 
 .slider__container:after {
@@ -40,6 +41,7 @@
     width: 20px;
     top: 50%;
     transform: rotate(225deg);
+    cursor: pointer;
 }
 
 .slider__text {
