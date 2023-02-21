@@ -29,6 +29,10 @@
     padding: 0 1%;
 }
 
+.contact__form > input:focus {
+    outline: none;
+}
+
 .contact__form > textarea {
     width: 100%;
     height: 180px;
@@ -38,6 +42,10 @@
     font-size: 1.4rem;
     padding: 1% 1%;
     font-family: Raleway-Black, Tahoma, sans-serif;
+}
+
+.contact__form > textarea:focus {
+    outline: none;
 }
 
 .contact__right > img {
