@@ -1,0 +1,40 @@
+.footer {
+    margin: 3% 0;
+    padding: 10px 0;
+    color: #8D8D8D;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.footer__container--right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 405px;
+}
+
+.footer__container--right > .footer__text {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.footer__container--right > .footer__text span {
+    font-weight: bold;
+}
+
+.footer__container--right > .footer__icons .footer__icons--icon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer__container--left > p {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,85 @@
+.chairs__container {
+    display: flex;
+    background-color: white;
+    margin-top: 3%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.chairs__item {
+    width: calc(100% / 3 - 20px);
+    height: 250px;
+    position: relative;
+}
+
+.chair__clair {
+    background-image: url("../images/box1_img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.chair__margarita {
+    background-image: url("../images/box2_img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.chairs__item--blur {
+    height: 60px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.3);
+    top: 170px;
+    position: absolute;
+    padding: 10px 0;
+}
+
+.chairs__item--blur:before{
+    content: '';
+    width: 43%;
+    height: 10px;
+    background-color: #24BA9FFF;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.chairs__item--blur p {
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.chairs__item--blur p span {
+    text-transform: uppercase;
+}
+
+.chair__text {
+    height: 270px;
+    border: 2px solid lightgrey;
+    padding: 2% 2%;
+    color: #999999;
+    position: relative;
+}
+
+.chair__text:before {
+    content: '';
+    width: 55%;
+    height: 10px;
+    background-color: #24BA9FFF;
+    display: block;
+    position: absolute;
+    top: 47px;
+    left: 20px;
+}
+
+.chair__text h3 {
+    font-weight: normal;
+    margin-bottom: 10%;
+    color: black;
+}
+
+.chair__text p:nth-child(2) {
+    margin-bottom: 7%;
+}
