@@ -36,7 +36,8 @@ header {
 
 .navigation__item:hover {
     color: #24BA9F;
-    height: calc(100px + 50px);
+    height: 150px;
+    z-index: 9999;
 }
 
 .navigation__item:nth-child(2){
@@ -56,7 +57,7 @@ header {
     width: 130px;
     padding: 10px 10px;
     top: 50px;
-    left: -20px;
+    left: -25px;
 }
 
 .navigation__drop:before {
@@ -83,6 +84,7 @@ header {
 .navigation__item:hover .contact {
     display: block;
     position: absolute;
+    height: 100px;
 }
 
 .navigation__drop__item {
